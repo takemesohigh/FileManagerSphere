@@ -1,37 +1,6 @@
 <p align="center"><img src="fastlane/metadata/android/en-US/images/icon.png" width="150"></p>
 <h1 align="center"><b>FileManagerSphere</b></h1><p align="center"><span><b>FileManagerSphere</b>, a customizable and modern file manager</span></p>
-
-<div align="center">
-
- <img alt="API" src="https://img.shields.io/badge/Api%2026+-50f270?logo=android&logoColor=black&style=for-the-badge"/></a>
-  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-a503fc?logo=kotlin&logoColor=white&style=for-the-badge"/></a>
-  <img alt="material" src="https://custom-icon-badges.demolab.com/badge/material%20you-lightblue?style=for-the-badge&logoColor=333&logo=material-you"/></a>
-  </br>
-  </br>
-    <a href="LICENSE">
-        <img src="https://img.shields.io/github/license/ruan625br/filemanagersphere.svg?color=CFBDFF&style=for-the-badge&logo=gitbook&logoColor=ebebf0&labelColor=23232F" alt="License">
-    </a>
-    <a href="https://github.com/Ruan625Br/FileManagerSphere/releases">
-        <img src="https://img.shields.io/github/v/release/Ruan625Br/FileManagerSphere?color=cfbdff&style=for-the-badge&logo=pkgsrc&logoColor=ebebf0&labelColor=23232F" alt="GitHub release">
-    </a>
-    <a href="https://github.com/Ruan625Br/FileManagerSphere/stargazers">
-        <img src="https://img.shields.io/github/stars/Ruan625Br/FileManagerSphere.svg?color=cfbdff&style=for-the-badge&logo=apachespark&logoColor=ebebf0&labelColor=23232F" alt="Stars Count">
-    </a>
-    <a href="https://github.com/Ruan625Br/FileManagerSphere/releases">
-        <img src="https://img.shields.io/github/downloads/Ruan625Br/FileManagerSphere/total.svg?color=cfbdff&style=for-the-badge&labelColor=23232F" alt="Download Counts">
-    </a> 
-    <a href="https://github.com/Ruan625Br/FileManagerSphere/actions/workflows/android.yml">
-        <img alt="Workflow status" src="https://img.shields.io/github/actions/workflow/status/Ruan625Br/FileManagerSphere/android.yml?color=6650A4&style=for-the-badge&logo=githubactions&logoColor=ebebf0&labelColor=23232F&label=CI">
-    </a>
-    <a href="https://ko-fi.com/juannascimento/">
-        <img src="https://img.shields.io/badge/Ko--fi-F16061?color=cfbdff&style=for-the-badge&logo=ko-fi&logoColor=black" alt="Ko-Fi">
-    </a>   
-</div>
-
-
-
----                 
-
+              
 ## What is FileManagerSphere?
  
 <div align="center">
@@ -83,42 +52,6 @@ FileManagerSphere is a powerful file management tool, designed to simplify and e
 
 ---
 
-## Installation
-
-> _Currently you can download FileManagerSphere in the following ways
-._
-> - [_GitHub Releases_](https://github.com/Ruan625Br/FileManagerSphere/releases)
-> - [_GitHub Actions_](https://github.com/Ruan625Br/FileManagerSphere/actions)
-
-
-<p  align="parent">
-          <a href="https://f-droid.org/app/com.etb.filemanager">
-                  <img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" width="170" ></a>
-           <a href="https://www.amazon.com/gp/mas/dl/android?p=com.etb.filemanager">
-                  <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/devportal2/res/images/amazon-appstore-badge-english-black.png" width="170" ></a>
- </p>
-
----
-## Translations
-
-Help translate [the app strings](https://hosted.weblate.org/engage/filemanagersphere/) to other languages.
-
-<div align="center">
-    <a href="https://hosted.weblate.org/engage/filemanagersphere/">
-<img src="https://hosted.weblate.org/widgets/filemanagersphere/-/287x66-black.png" alt="Status da tradução" />
-</a>    
-</a>
- 
-<details>
-<summary>See the translation status for all languages.</summary>
-        
-[![Translation status](https://hosted.weblate.org/widgets/filemanagersphere/-/translations/multi-auto.svg)](https://hosted.weblate.org/engage/filemanagersphere/)
-
-</details>
-</div>
-
----
-
 ## Contribution
 
 Contributions are welcome! If you would like to improve FileManagerSphere, feel free to submit a pull request. Make sure to discuss your ideas first by opening an issue.
@@ -128,12 +61,6 @@ Contributions are welcome! If you would like to improve FileManagerSphere, feel 
 ## Authors
 
 - [@Ruan625Br](https://www.github.com/Ruan625Br)
-
----
-
-## Love my work?
-
-<a href='https://ko-fi.com/juannascimento' target='_blank'><img height='35' style='border:0px;height:34px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
 ---
 
