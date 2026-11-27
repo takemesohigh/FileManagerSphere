@@ -26,7 +26,7 @@ class GenerativeModelManager @Inject constructor(
 ) {
 
     private val generativeModel = GenerativeModel(
-        modelName = "gemini-pro", apiKey = BuildConfig.apiKey
+        modelName = "gemini-pro", apiKey = BuildConfig.GEMINI_API_KEY
     )
 
     val chat = generativeModel.startChat(

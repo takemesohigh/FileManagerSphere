@@ -1,3 +1,5 @@
+import java.util.Properties
+
 @Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
     id("com.android.application")
@@ -5,11 +7,22 @@ plugins {
     id("kotlin-parcelize")
     id("com.google.devtools.ksp")
     id("com.google.dagger.hilt.android")
+    id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
     id("org.jetbrains.kotlin.plugin.serialization")
     id("androidx.room")
     alias(libs.plugins.baselineprofile)
 
 }
+
+val secretsFile = rootProject.file("secrets.properties")
+val geminiApiKey = Properties().apply {
+    if (secretsFile.isFile) {
+        secretsFile.inputStream().use { load(it) }
+    }
+}.getProperty("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY")
+val escapedGeminiApiKey = geminiApiKey
+    .replace("\\", "\\\\")
+    .replace("\"", "\\\"")
 
 android {
     namespace = "com.etb.filemanager"
@@ -24,6 +37,7 @@ android {
 
         resValue("string", "app_version", "$versionName ($versionCode)")
         buildConfigField("String", "FILE_PROVIDER_AUTHORITY", "\"$applicationId.jn.fileprovider\"")
+        buildConfigField("String", "GEMINI_API_KEY", "\"$escapedGeminiApiKey\"")
         resValue("string", "app_provider_authority", "$applicationId.jn.app_provider")
         resValue("string", "file_provider_authority", "$applicationId.jn.file_provider")
 
@@ -218,7 +232,7 @@ dependencies {
 
     //Ruan625Br
     implementation("com.github.Ruan625Br:FilePickerSphere:1.0.0")
-    implementation("com.github.Ruan625Br:AIResponseMatcher:4904b50758")
+    //implementation("com.github.Ruan625Br:AIResponseMatcher:4904b50758")
 }
 
 
